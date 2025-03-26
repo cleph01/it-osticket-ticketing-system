@@ -29,6 +29,8 @@
 
 <hr />
 
+- [Prerequisites and Installation](prereqs-and-installation.md)
+
 ## Installation Steps
 
 ### 1. Create an Azure Virtual Machine Windows 10, 4 vCPUs
