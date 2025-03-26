@@ -2,9 +2,21 @@
   <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<hr />
+---
 
 # osTicket - Prerequisites and Installation
+
+This section details the foundational steps for deploying osTicket on a Microsoft Azure Virtual Machine running Windows Server. 
+
+It outlines the necessary prerequisites, including the provisioning of an Azure VM with adequate resources, establishing remote access, and enabling Internet Information Services (IIS) with CGI support. 
+
+The installation process covers the deployment of essential dependencies such as PHP, the IIS PHP Manager, URL Rewrite Module, Visual C++ Redistributables, and a MySQL database server. 
+
+Each step is carefully documented with accompanying visuals to ensure clarity and ease of replication. 
+
+Successful completion of these installation procedures lays the groundwork for a fully functional osTicket help desk system within the Azure cloud.
+
+---
 
 ## Installation Steps
 
