@@ -195,8 +195,6 @@ This section outlines the configuration of key elements within the osTicket Admi
   <img width="951" alt="image" src="https://github.com/user-attachments/assets/71526246-0e78-456a-879e-d811d1f23ebb" />
 </p>
 
-
-
 ---
 
 ### Configure Users (customers)
@@ -206,6 +204,16 @@ This section outlines the configuration of key elements within the osTicket Admi
 -   **Examples:**
     -   **Karen:** A user account is created for Karen.
     -   **Ken:** A user account is created for Ken.
+
+#### In the Agent Panel, Create Karen and Ken
+
+<p>
+  <img width="957" alt="image" src="https://github.com/user-attachments/assets/d75eccf9-4e56-452d-9697-a6c440328b6e" />
+</p>
+
+<p>
+  <img width="957" alt="image" src="https://github.com/user-attachments/assets/034c97dd-eb38-49c3-90fe-de0bd5545923" />
+</p>
 
 ---
 
@@ -217,6 +225,18 @@ This section outlines the configuration of key elements within the osTicket Admi
     -   **Sev-A (Grace Period: 1 hour, Schedule: 24/7):** Tickets with Severity A (highest priority) should receive an initial response within 1 hour and are subject to a 24/7 operational schedule.
     -   **Sev-B (Grace Period: 4 hours, Schedule: 24/7):** Severity B tickets require a response within 4 hours and also follow a 24/7 schedule.
     -   **Sev-C (Grace Period: 8 hours, Business Hours):** Severity C tickets have an 8-hour response grace period and are only actively managed during defined business hours.
+
+<p>
+  <img width="957" alt="image" src="https://github.com/user-attachments/assets/e5129d70-4cb8-49cf-ada1-a6676b50ce70" />
+</p>
+
+<p>
+  <img width="958" alt="image" src="https://github.com/user-attachments/assets/19a5f229-6fa6-42ed-9f25-f3b3f141e7ac" />
+</p>
+
+<p>
+  <img width="949" alt="image" src="https://github.com/user-attachments/assets/ab35f555-432f-4872-b599-be194b12d6bc" />
+</p>
 
 ---
 
