@@ -26,6 +26,16 @@ This section outlines the configuration of key elements within the osTicket Admi
 
 -   **Overview:** osTicket distinguishes between the Agent Panel, used by support staff to manage tickets and interact with users, and the Admin Panel, used by administrators to configure system-wide settings, agents, users, and other core components. Understanding this separation is crucial for navigating and managing the system effectively.
 
+#### Agent Panel
+<p>
+  <img width="983" alt="image" src="https://github.com/user-attachments/assets/b164a86c-bd76-4d0f-9d7f-efe0c426a348" />
+</p>
+
+#### Admin Panel
+<p>
+  <img width="971" alt="image" src="https://github.com/user-attachments/assets/365250d1-488f-494c-9b04-b7d3b3be28b2" />
+</p>
+
 ---
 
 ### Configure Roles (for grouping permissions)
@@ -34,7 +44,24 @@ This section outlines the configuration of key elements within the osTicket Admi
 -   **Overview:** Roles define a set of permissions that can be assigned to agents. This allows for granular control over what actions different agents or groups of agents can perform within the system. Creating roles simplifies permission management by grouping related permissions together.
 -   **Example:**
     -   **Supreme Admin:** This role would typically encompass all available permissions, granting full control over the osTicket system.
+ 
+#### View Only Role - Has no permissioning for Tickets, Tasks, or Knowledgebase
 
+<p>
+  <img width="702" alt="image" src="https://github.com/user-attachments/assets/ff54d4f3-ff82-446d-a5f2-459814d4c268" />
+</p>
+
+#### Expanded Access Role - Many more permissions (but less than "All Access"/Administrator)
+
+<p>
+  <img width="673" alt="image" src="https://github.com/user-attachments/assets/01bf5867-7d30-408e-9004-dd5074d0125c" />
+</p>
+
+#### Custom Roles Can Also Be Created via "Add New Role" and Custom Permissions Attached
+
+<p>
+  <img width="961" alt="image" src="https://github.com/user-attachments/assets/414e9bc1-acbe-4c43-a9c2-cfcb81c93d6c" />
+</p>
 ---
 
 ### Configure Departments (Ticket Visibility, Help Desk vs SysAdmins, vs Networking)
