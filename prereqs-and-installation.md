@@ -105,11 +105,13 @@ Successful completion of these installation procedures lays the groundwork for a
 
 <p>Installing MySQL Server provides the database management system that osTicket will use to store its data, such as tickets, user information, and configurations</p>
 <br />
+
 - Typical Setup ->
 - Launch Configuration Wizard (after install) ->
 - Standard Configuration ->
 - Username: root
 - Password: root
+
 <p>Installing MySQL on the same VM means that the client is now running both a web server (IIS) and a database server (MySQL) simultaneously. This is common in smaller deployments or development environments.</p>
 <br />
 <hr />
@@ -118,9 +120,11 @@ Successful completion of these installation procedures lays the groundwork for a
 
 <p>Running IIS Manager as an administrator ensures that you have the necessary privileges to make configuration changes to the web server.</p>
 <br />
+
 <p>
   <img width="402" alt="image" src="https://github.com/user-attachments/assets/b3707c74-724c-43c6-b0a2-e597cfffd2c2" />
 </p>
+
 <p>IIS Manager provides a graphical interface for configuring and managing your IIS web server, similar in functionality to cPanel in Apache environments.</p>
 <br />
 <hr />
@@ -143,10 +147,13 @@ Successful completion of these installation procedures lays the groundwork for a
 
 <p>This step involves deploying the osTicket application files to the web server's document root, making them accessible through the web browser.</p>
 <br />
+
 <p>From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot”. Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”.</p>
+
 <p>Reload IIS (Open IIS, Stop and Start the server)</p>
+
 <p>Go to sites -> Default -> osTicket<br />
-On the right, click “Browse *:80”</p>
+  On the right, click “Browse *:80”</p>
 <p>
   <img width="612" alt="image" src="https://github.com/user-attachments/assets/ec4efb98-af9f-47ff-b545-0aa93e7a65ce" />
 </p>
@@ -173,13 +180,16 @@ Enable: php_opcache.dll</p>
 ### 14. Rename and Configure osTicket Configuration File
 
 <p>Renaming the sample configuration file and setting appropriate permissions is a crucial step in the osTicket installation process, preparing it for the web-based setup.<br /></p>
-<p>Rename: ost-config.php<br />
-From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php<br />
-To: C:\inetpub\wwwroot\osTicket\include\ost-config.php</p>
-<p>Assign Permissions: ost-config.php<br />
-Disable inheritance -> Remove All<br />
-New Permissions -> Everyone -> All<br />
-  - While setting "Everyone" to "Full Control" simplifies the initial setup in a lab environment, it's generally **not recommended** for production systems due to security implications. In a real-world scenario, you would grant more restrictive permissions to the web server's user account.<br /></p>
+
+- Rename: ost-config.php
+    - From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php<br />
+    - To: C:\inetpub\wwwroot\osTicket\include\ost-config.php</p>
+- Assign Permissions: ost-config.php<br />
+- Disable inheritance -> Remove All<br />
+- New Permissions -> Everyone -> All<br />
+  
+<p>While setting "Everyone" to "Full Control" simplifies the initial setup in a lab environment, it's generally <strong>not recommended</strong> for production systems due to security implications. In a real-world scenario, you would grant more restrictive permissions to the web server's user account.</p>
+<br />
 <p>
   <img width="1080" alt="image" src="https://github.com/user-attachments/assets/8ac88567-2541-4619-bd3a-6e2768125549" />
 </p>
@@ -193,21 +203,26 @@ New Permissions -> Everyone -> All<br />
 
 ### 15. Continue Setting up osTicket in the browser
 
-<p>The web-based setup wizard guides you through the final configuration of osTicket, including database connection details and administrator account creation.<br /></p>
-<p>Continue Setting up osTicket in the browser (click Continue)<br />
-Name Helpdesk<br />
-Default email (receives email from customers)</p>
+<p>The web-based setup wizard guides you through the final configuration of osTicket, including database connection details and administrator account creation.</p>
+<br />
+
+- Continue Setting up osTicket in the browser (click Continue)
+- Name Helpdesk
+- Default email (receives email from customers)
+
 <hr />
 
 ### 16. Install HeidiSQL
 
 <p>HeidiSQL is a free, lightweight MySQL database administration tool that provides a graphical user interface for managing MySQL databases. It simplifies tasks like creating databases and managing database objects.</p>
 <br />
-<p>From the “osTicket-Installation-Files” folder, install HeidiSQL.</p>
-<p>Open Heidi SQL<br />
-Create a new session, root/root<br />
-Connect to the session<br />
-Create a database called “osTicket”</p>
+
+- From the “osTicket-Installation-Files” folder, install HeidiSQL
+- Open Heidi SQL
+- Create a new session, root/root
+- Connect to the session
+- Create a database called “osTicket”
+
 <p>
   <img width="931" alt="image" src="https://github.com/user-attachments/assets/3a61b61f-44e5-43ef-a085-c75592846b77" />
 </p>
@@ -221,11 +236,12 @@ Create a database called “osTicket”</p>
 
 <p>Provide the database connection details to the osTicket setup wizard, linking the application to the MySQL database you created.</p>
 <br />
-<p>Continue Setting up osTicket in the browser<br />
-MySQL Database: osTicket<br />
-MySQL Username: root<br />
-MySQL Password: root<br />
-Click “Install Now!”</p>
+
+- Continue Setting up osTicket in the browser
+- MySQL Database: osTicket
+- MySQL Username: root
+- MySQL Password: root
+- Click “Install Now!”
 
 <hr />
 
@@ -240,7 +256,8 @@ Click “Install Now!”</p>
 
 ### 19. Final Steps and Cleanup
 
-<p>These final steps involve securing your osTicket installation by removing the setup directory and setting appropriate permissions on the configuration file.<br /></p>
-<p>Browse to your help desk login page: http://localhost/osTicket/scp/login.php<br /><br />
-End Users osTicket URL:<br />
-http://localhost/osTicket/<br /><br />
+<p>These final steps involve securing your osTicket installation by removing the setup directory and setting appropriate permissions on the configuration file.</p>
+<br />
+
+- Browse to your help desk login page: `http://localhost/osTicket/scp/login.php`
+- End Users osTicket URL: `http://localhost/osTicket/`
