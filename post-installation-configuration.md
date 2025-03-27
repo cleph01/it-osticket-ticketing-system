@@ -250,3 +250,16 @@ This section outlines the configuration of key elements within the osTicket Admi
     -   **Equipment Request:** For users needing new hardware or software.
     -   **Password Reset:** A common request for regaining access to accounts.
     -   **Other:** A general category for issues that don't fit into the specific predefined topics.
+
+<p>
+  <img width="959" alt="image" src="https://github.com/user-attachments/assets/1cdcd53b-4489-40c3-8cf8-b97467adbd82" />
+</p>
+<p>
+  <img width="948" alt="image" src="https://github.com/user-attachments/assets/ce3238f9-95b4-430d-a43f-0aad3c2f5ef1" />
+</p>
+<p>
+  <img width="952" alt="image" src="https://github.com/user-attachments/assets/43d4c6d4-8283-4b46-bc59-e2f3ee363e9d" />
+</p>
+
+
+
