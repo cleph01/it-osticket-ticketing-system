@@ -62,6 +62,25 @@ This section outlines the configuration of key elements within the osTicket Admi
 <p>
   <img width="961" alt="image" src="https://github.com/user-attachments/assets/414e9bc1-acbe-4c43-a9c2-cfcb81c93d6c" />
 </p>
+
+#### Create New Role -> "Supreme Admin"
+
+<p>
+  <img width="962" alt="image" src="https://github.com/user-attachments/assets/56546311-9bd4-4423-859a-05f6669bcade" />
+</p>
+
+#### Grant All Permissions for Tickets, Task, and Knowledgebase
+
+<p>
+  <img width="955" alt="image" src="https://github.com/user-attachments/assets/f9675af1-7426-4dbc-9a48-8e298d8aea5c" />
+</p>
+
+#### Save
+
+<p>
+  <img width="961" alt="image" src="https://github.com/user-attachments/assets/2bbc434c-de96-419f-add5-e22340dee93b" />
+</p>
+
 ---
 
 ### Configure Departments (Ticket Visibility, Help Desk vs SysAdmins, vs Networking)
@@ -70,6 +89,24 @@ This section outlines the configuration of key elements within the osTicket Admi
 -   **Overview:** Departments logically group agents based on their area of expertise or responsibility. Departments also control ticket visibility, allowing you to restrict access to tickets based on an agent's department. This ensures that agents only see and work on tickets relevant to their skills.
 -   **Example:**
     -   **SysAdmins:** Agents in this department would likely handle tickets related to server issues, network infrastructure, and other system-level problems.
+
+#### Add New Department
+
+<p>
+  <img width="961" alt="image" src="https://github.com/user-attachments/assets/c873b739-3dfa-4436-b0b8-797a93aa1ee2" />
+</p>
+
+#### Name is SysAdmins
+
+<p>
+  <img width="961" alt="image" src="https://github.com/user-attachments/assets/eb53400c-bf0f-43fb-9a0b-590d352aa3dc" />
+</p>
+
+#### Save
+
+<p>
+  <img width="967" alt="image" src="https://github.com/user-attachments/assets/4350d099-cc16-44b0-8bcb-411a9932af7b" />
+</p>
 
 ---
 
@@ -80,6 +117,24 @@ This section outlines the configuration of key elements within the osTicket Admi
 -   **Example:**
     -   **Online Banking:** This team might include agents from the general support department and the systems administration department to handle complex issues related to the online banking platform.
 
+#### Create a New Team
+
+<p>
+  <img width="958" alt="image" src="https://github.com/user-attachments/assets/e10b856d-72d1-499f-9c2f-a5c0e83bebde" />
+</p>
+
+#### Name It
+
+<p>
+  <img width="956" alt="image" src="https://github.com/user-attachments/assets/e7358aab-f876-46fc-8ca1-bf90231cad26" />
+</p>
+
+#### Save
+
+<p>
+  <img width="956" alt="image" src="https://github.com/user-attachments/assets/e6c68709-86d9-4c14-bbb7-1057372c9da4" />
+</p>
+
 ---
 
 ### Allow anyone to create tickets
@@ -89,6 +144,10 @@ This section outlines the configuration of key elements within the osTicket Admi
 -   **Configuration:**
     -   **UNCHECK: unregistered users can create tickets:** By unchecking this option, you are requiring users to have an account (either registered or created by an agent) before they can submit a ticket.
     -   **Registration Required: Require registration and login to create tickets:** Enabling this option forces all users to register and log in to the system before they can create a new support ticket. This can help with tracking and managing user requests.
+ 
+<p>
+  <img width="959" alt="image" src="https://github.com/user-attachments/assets/1999b884-2cdd-45a1-adfa-56d66e49f97d" />
+</p>
 
 ---
 
@@ -99,6 +158,44 @@ This section outlines the configuration of key elements within the osTicket Admi
 -   **Examples:**
     -   **Jane (Dept: SysAdmins):** Jane is created as an agent and assigned to the SysAdmins department, indicating her primary area of responsibility.
     -   **John (Dept: Support):** John is created as an agent and assigned to the Support department, likely handling more general user inquiries.
+ 
+#### Add New Agents
+
+<p>
+  <img width="955" alt="image" src="https://github.com/user-attachments/assets/8d81e333-3c13-4f0e-9b4f-d659a5ff3223" />
+</p>
+
+<p>
+  <img width="951" alt="image" src="https://github.com/user-attachments/assets/7e8e1d97-fd05-493a-8334-11df7bbc450f" />
+</p>
+
+#### Make Jane Doe part of *"SysAdmins"* Department with a *"Supreme Admin"* Role on the *"Online Banking"* Team
+
+<p>
+  <img width="961" alt="image" src="https://github.com/user-attachments/assets/6265b8d0-f1a6-4531-9222-0d6a01587890" />
+</p>
+
+<p>
+  <img width="959" alt="image" src="https://github.com/user-attachments/assets/39f9e105-8d7a-48d1-8d6a-6c535147415b" />
+</p>
+
+#### Make John Doe part of *"Support"* Department with a *"Read Only"* Role and not on a team
+
+<p>
+  <img width="956" alt="image" src="https://github.com/user-attachments/assets/f57871ec-a862-4d98-a60b-4f9e3ab9f52c" />
+</p>
+
+<p>
+  <img width="956" alt="image" src="https://github.com/user-attachments/assets/fc5ca33e-15d3-4532-af33-d752f9469e7a" />
+</p>
+
+#### Save
+
+<p>
+  <img width="951" alt="image" src="https://github.com/user-attachments/assets/71526246-0e78-456a-879e-d811d1f23ebb" />
+</p>
+
+
 
 ---
 
