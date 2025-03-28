@@ -76,10 +76,33 @@ It walks through the complete lifecycle of several mock tickets, demonstrating k
 - **Overview:** This demonstrates how agents can adjust ticket properties to ensure proper prioritization and routing.
 
         
-#### Work the ticket to completion as Jane:**
+#### Work the ticket to completion as Jane:
 
 - This simulates the ticket resolution process, including communication, troubleshooting, and final closure. It also shows how a ticket might be handled by a different agent than initially assigned.
 
+<p>
+  <img width="955" alt="image" src="https://github.com/user-attachments/assets/4ee2aadd-5cd2-4ba7-a78e-6756d69091e7" />
+</p>
+
+<p>
+  <img width="941" alt="image" src="https://github.com/user-attachments/assets/cfbd7aa0-be2e-4983-8478-36e4237701de" />
+</p>
+
+<p>
+  <img width="953" alt="image" src="https://github.com/user-attachments/assets/7a9a99b0-3ae9-48e7-902c-3b813a1fa9be" />
+</p>
+
+<p>
+  <img width="956" alt="image" src="https://github.com/user-attachments/assets/c9b86c85-32f5-4064-8a56-baddd489c8b2" />
+</p>
+
+<p>
+  <img width="945" alt="image" src="https://github.com/user-attachments/assets/7d9af2f9-750f-4bea-bd0a-99f14a78c41b" />
+</p>
+
+<p>
+  <img width="964" alt="image" src="https://github.com/user-attachments/assets/bfea7ba9-6156-4790-91fb-2161328d2d4d" />
+</p>
 
 ---
 
