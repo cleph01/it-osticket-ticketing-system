@@ -14,7 +14,7 @@ It walks through the complete lifecycle of several mock tickets, demonstrating k
 
 ## Ticket Scenario 1: Critical System Outage
 
--   **End-User Action:**
+-   **End-User Action (from the End-User portal):**
 
     -   **Create a ticket under username "Karen" with the subject:** "entire mobile/online banking system is down"
 
@@ -30,27 +30,58 @@ It walks through the complete lifecycle of several mock tickets, demonstrating k
   <img width="837" alt="image" src="https://github.com/user-attachments/assets/faf291f3-d51e-4d0c-88ca-d11878b5ccab" />
 </p>
         
-          
--   **Help Desk Agent (John) Actions:**
+#### Help Desk Agent (John) Actions (from the Agent portal):
+
+<p>
+  <img width="962" alt="image" src="https://github.com/user-attachments/assets/329477c1-1d9a-4718-aaab-67ed9bdaac6b" />
+</p>
   
-    -   **Observe the ticket's properties:**
-      
-        -   **Priority:** Observe the default or user-selected priority.
-        -   **Department:** Note the department the ticket was initially routed to.
-        -   **SLA:** Verify the applied Service Level Agreement.
-        -   **Assigned To:** Check if the ticket is automatically assigned.
-        -   **Overview:** This step emphasizes the agent's initial assessment of a new ticket, understanding its key attributes for effective handling.
-          
-    -   **Set Properties to the ticket:**
-        -   **Sev-A (1 hour, 24/7):** Manually set the Severity to A, indicating the highest priority, with a 1-hour resolution SLA and 24/7 support.
-        -   **Online Banking Department:** Assign the ticket to the appropriate department.
-        -   **Overview:** This demonstrates how agents can adjust ticket properties to ensure proper prioritization and routing.
-          
-    -   **Attempt to observe the ticket again as "john". Can you view or change?**
-        -   **Overview:** This step tests department permissions and access control. Can John view and change the ticket based on his department and the 'Online Banking' department?
-          
-    -   **Work the ticket to completion as Jane:**
-        -   **Overview:** This simulates the ticket resolution process, including communication, troubleshooting, and final closure. It also shows how a ticket might be handled by a different agent than initially assigned.
+#### Observe the ticket's properties:
+
+<p>
+  <img width="963" alt="image" src="https://github.com/user-attachments/assets/dd0ab041-588e-4602-951e-23de3f2b40b3" />
+</p>
+
+-   **Priority:** Observe the default or user-selected priority.
+-   **Department:** Note the department the ticket was initially routed to.
+-   **SLA:** Verify the applied Service Level Agreement.
+-   **Assigned To:** Check if the ticket is automatically assigned.
+-   **Overview:** This step emphasizes the agent's initial assessment of a new ticket, understanding its key attributes for effective handling.
+        
+#### Set Properties to the ticket:
+  
+- **Sev-A (1 hour, 24/7):** Manually set the Severity to A, indicating the highest priority, with a 1-hour resolution SLA and 24/7 support.
+    
+<p>
+  <img width="961" alt="image" src="https://github.com/user-attachments/assets/69819de7-17bf-4ee6-928b-abf8020f4e5d" />
+</p>
+
+- **Online Banking Department:** Assign the ticket to the appropriate department.
+
+<p>
+  <img width="972" alt="image" src="https://github.com/user-attachments/assets/3504fd0f-aeb5-4728-b6eb-051e6c69a06f" />
+</p>
+
+<p>
+  <img width="955" alt="image" src="https://github.com/user-attachments/assets/2ea11231-c275-4ef2-a9e2-19d8542b42e3" />
+</p>
+
+
+- **Update Help Topic:** Update help topic to reflect severity
+
+<p>
+  <img width="953" alt="image" src="https://github.com/user-attachments/assets/29572432-33dd-4756-bd8a-bd3d96570e88" />
+</p>
+
+  -   **Overview:** This demonstrates how agents can adjust ticket properties to ensure proper prioritization and routing.
+
+
+        
+  -   **Attempt to observe the ticket again as "john". Can you view or change?**
+      -   **Overview:** This step tests department permissions and access control. Can John view and change the ticket based on his department and the 'Online Banking' department?
+        
+  -   **Work the ticket to completion as Jane:**
+      -   **Overview:** This simulates the ticket resolution process, including communication, troubleshooting, and final closure. It also shows how a ticket might be handled by a different agent than initially assigned.
 
 ---
 
