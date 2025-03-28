@@ -17,7 +17,16 @@ It walks through the complete lifecycle of several mock tickets, demonstrating k
 -   **End-User Action:**
 
     -   **Create a ticket under username "Karen" with the subject:** "entire mobile/online banking system is down"
-        -   **Overview:** This simulates a high-priority issue reported by an end-user, indicating a critical service disruption.
+
+ #### This simulates a high-priority issue reported by an end-user, indicating a critical service disruption, *but using an less-severe category/label*
+ 
+<p>
+  <img width="713" alt="image" src="https://github.com/user-attachments/assets/a2d738ea-574f-4ed8-a6d2-e1e945332d70" />
+</p>
+<p>
+  <img width="805" alt="image" src="https://github.com/user-attachments/assets/acb2ac3c-7402-4ab5-bbf4-5c69f19b3869" />
+</p>
+        
           
 -   **Help Desk Agent (John) Actions:**
   
