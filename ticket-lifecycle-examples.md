@@ -26,6 +26,9 @@ It walks through the complete lifecycle of several mock tickets, demonstrating k
 <p>
   <img width="805" alt="image" src="https://github.com/user-attachments/assets/acb2ac3c-7402-4ab5-bbf4-5c69f19b3869" />
 </p>
+<p>
+  <img width="837" alt="image" src="https://github.com/user-attachments/assets/faf291f3-d51e-4d0c-88ca-d11878b5ccab" />
+</p>
         
           
 -   **Help Desk Agent (John) Actions:**
