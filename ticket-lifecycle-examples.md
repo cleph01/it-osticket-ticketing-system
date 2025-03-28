@@ -73,15 +73,13 @@ It walks through the complete lifecycle of several mock tickets, demonstrating k
   <img width="953" alt="image" src="https://github.com/user-attachments/assets/29572432-33dd-4756-bd8a-bd3d96570e88" />
 </p>
 
-  -   **Overview:** This demonstrates how agents can adjust ticket properties to ensure proper prioritization and routing.
-
+- **Overview:** This demonstrates how agents can adjust ticket properties to ensure proper prioritization and routing.
 
         
-  -   **Attempt to observe the ticket again as "john". Can you view or change?**
-      -   **Overview:** This step tests department permissions and access control. Can John view and change the ticket based on his department and the 'Online Banking' department?
-        
-  -   **Work the ticket to completion as Jane:**
-      -   **Overview:** This simulates the ticket resolution process, including communication, troubleshooting, and final closure. It also shows how a ticket might be handled by a different agent than initially assigned.
+#### Work the ticket to completion as Jane:**
+
+- This simulates the ticket resolution process, including communication, troubleshooting, and final closure. It also shows how a ticket might be handled by a different agent than initially assigned.
+
 
 ---
 
