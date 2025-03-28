@@ -16,7 +16,7 @@ It walks through the complete lifecycle of several mock tickets, demonstrating k
 
 -   **End-User Action:**
 
-    -   **Create a ticket with the subject:** "entire mobile/online banking system is down"
+    -   **Create a ticket under username "Karen" with the subject:** "entire mobile/online banking system is down"
         -   **Overview:** This simulates a high-priority issue reported by an end-user, indicating a critical service disruption.
           
 -   **Help Desk Agent (John) Actions:**
