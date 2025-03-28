@@ -174,33 +174,5 @@ It walks through the complete lifecycle of several mock tickets, demonstrating k
     -   **Observe that you can no longer make changes to it.**
          -   **Overview:** This highlights the difference between viewing a ticket and having the ability to modify it, even after gaining department access.
 
----
-
-## Ticket Resolution and Communication
-
--   **Action:**
-  
-    -   **Solve all of the tickets.**
-        -   **Overview:** This emphasizes the completion of the ticket lifecycle, including providing solutions and closing the tickets.
-          
--   **Explanation:**
-  
-    -   **Explain in most ticketing systems (probably this one too) there is an email capability so every time you update the ticket, the user gets a copy and they can respond.**
-      
-        -   **Overview:** This highlights the importance of communication within a ticketing system, where updates are often automatically communicated to the end-user via email, enabling seamless interaction and feedback.
-
----
-
-## Real-World Ticket Intake
-
--   **Explanation:**
-  
-    -   **Explain ticket intake IRL:**
-      
-        -   **Sometimes tickets get created via phone, chat app, email, web form, or maybe even you run into someone in your hall or they roll up on you at your desk.**
-            -   **Overview:** This provides a realistic perspective on how support requests originate in various real-world scenarios, not just through a web form.
-              
-        -   **A lot of the time people will randomize you and try to get you to fix stuff on the spot. It’s fine to fix things on the spot, but generally speaking, you want to create tickets for EVERYTHING you do. (metrics are important)**
-            -   **Overview:** This emphasizes the importance of documenting all support activities, even those resolved immediately, for tracking, reporting, and performance metrics.
 
 <br />
