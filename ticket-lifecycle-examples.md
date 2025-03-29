@@ -110,25 +110,68 @@ It walks through the complete lifecycle of several mock tickets, demonstrating k
 
 -   **End-User Action:**
   
-    -   **Create a ticket with the subject:** "accounting department needs adobe upgrade, broken"
-        -   **Overview:** This represents a more routine request for software assistance from a specific department.
-          
--   **Help Desk Agent (John) Actions:**
+**Create a ticket with the subject:** "accounting department needs adobe upgrade, broken"
+
+**Overview:** This represents a more routine request for software assistance from a specific department. Demonstrates how a user may request a particular type of assistance but describe a situation that may not directly corelate, requiring deeper investigation.
+
+<p>
+  <img width="831" alt="image" src="https://github.com/user-attachments/assets/5344aad1-35cd-4ab9-b6c3-59465c46820e" />
+</p>
+<p>
+  <img width="832" alt="image" src="https://github.com/user-attachments/assets/44302d6a-b590-4054-8420-3ba59a52784e" />
+</p>
+
+#### **Help Desk Agent (John) Actions:**
+
+<p>
+  <img width="957" alt="image" src="https://github.com/user-attachments/assets/68c07035-c621-4f8f-8d00-4f27565a421a" />
+</p>
+
+-   **Observe the ticket's properties:**
+    -   **Priority:** Observe the default or user-selected priority.
+    -   **Department:** Note the department the ticket was initially routed to.
+    -   **SLA:** Verify the applied Service Level Agreement.
+    -   **Assigned To:** Check if the ticket is automatically assigned.
+    -   **Overview:** Similar to the previous scenario, this step highlights the agent's initial assessment.
+ 
+<p>
+  <img width="954" alt="image" src="https://github.com/user-attachments/assets/21a1f854-9089-46ca-9eb3-ac389857a226" />
+</p>
+
+**Assign to myself (John)**
+
+<p>
+<img width="955" alt="image" src="https://github.com/user-attachments/assets/22e0cba3-1199-48ae-9c63-c527f4af4169" />  
+</p>
+
+-   **Set Properties to the ticket:**
+    -   **Sev-C (4 hours, 24/7):** Set the Severity to C, with a 8-hour resolution SLA and Business Hours support.
+
+<p>
+  <img width="958" alt="image" src="https://github.com/user-attachments/assets/ac454b47-d4cf-456a-8b91-daa49bcf9a68" />
+</p>
+
+**Support:** Verify/Assign the ticket to the general Support department.
+- It already is
   
-    -   **Observe the ticket's properties:**
-        -   **Priority:** Observe the default or user-selected priority.
-        -   **Department:** Note the department the ticket was initially routed to.
-        -   **SLA:** Verify the applied Service Level Agreement.
-        -   **Assigned To:** Check if the ticket is automatically assigned.
-        -   **Overview:** Similar to the previous scenario, this step highlights the agent's initial assessment.
-          
-    -   **Set Properties to the ticket:**
-        -   **Sev-B (4 hours, 24/7):** Set the Severity to B, with a 4-hour resolution SLA and 24/7 support.
-        -   **Support:** Assign the ticket to the general Support department.
-        -   **Overview:** Adjusting ticket properties according to the request's urgency and nature.
-          
-    -   **Work the ticket to completion as John:**
-        -   **Overview:** Resolving the ticket, including any necessary communication, steps taken, and final closure.
+<p>
+  <img width="958" alt="image" src="https://github.com/user-attachments/assets/38a69187-ff7d-4dc4-a166-cbed07384532" />
+</p>
+
+**Work the ticket to completion as John:**
+-   **Overview:** Resolving the ticket, including any necessary communication, steps taken, and final closure.
+
+<p>
+  <img width="967" alt="image" src="https://github.com/user-attachments/assets/b72622d2-c888-4f6e-8107-77d1440cf03d" />
+</p>
+
+<p>
+  <img width="954" alt="image" src="https://github.com/user-attachments/assets/75de2952-665b-45ed-b13f-f61f75be7a27" />
+</p>
+
+<p>
+  <img width="961" alt="image" src="https://github.com/user-attachments/assets/a36ab99e-b58c-4a7b-ac14-89d5160f1d6e" />
+</p>
 
 <hr />
 
